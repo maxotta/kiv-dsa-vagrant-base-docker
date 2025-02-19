@@ -6,6 +6,8 @@ RUN yum -y update ;\
     yum clean all ;\
     yum -y install \
         net-tools \
+        curl-minimal \
+        procps-ng \
         less \
         mc
 
